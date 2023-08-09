@@ -1,0 +1,74 @@
+{
+    "name": "MultiSelectActions",
+    "maps": [
+        {
+            "name": "MultiSelect",
+            "id": "51d082ce-74b2-488a-8b4f-f897fa3c624e",
+            "actions": [
+                {
+                    "name": "Grip",
+                    "type": "Button",
+                    "id": "07baa9d4-9691-42a4-b289-d0dc36d4fc47",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Trigger",
+                    "type": "Button",
+                    "id": "b27a7517-2f66-49f8-837d-0b0a35416802",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Expand",
+                    "type": "Button",
+                    "id": "76fb365b-25c5-4865-ac8a-880b5fa62d49",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "73959bb7-0ff3-49d1-b1fc-82d4456efce4",
+                    "path": "<XRController>{RightHand}/gripPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ed48769f-af5b-4283-81cd-c867018eab1a",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6af7c367-8079-4379-8331-11b521be2912",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Expand",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

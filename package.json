@@ -1,0 +1,29 @@
+{
+	"name": "xrc.students.su2023.in06.yuan",
+	"version": "0.2.0",
+	"displayName": "XRC Students su2023-in06-yuan",
+	"description": "This is a package template. Make sure to update this package with your information.",
+	"unity": "2022.3",
+	"unityRelease": "4f1",
+	"documentationUrl": "https://xrc-students.github.io/xrc-students-su2023-in06-yuan",
+	"changelogUrl": "https://xrc-students.github.io/xrc-students-su2023-in06-yuan/changelog/CHANGELOG.html",
+	"licensesUrl": "https://xrc-students.github.io/xrc-students-su2023-in06-yuan/license/LICENSE.html",
+	"dependencies": {
+		
+	},
+	"keywords": [
+		"XRC",
+		"XR Collaboratory"
+	],
+	"author": {
+		"name": "XR Collaboratory"
+	},
+
+	"samples": [
+		{
+			"displayName": "Multi-Select Sample",
+			"description": "This is a sample. Make sure to update with your information.",
+			"path": "Samples~/MultiSelectSample"
+		}
+	]
+}
